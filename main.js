@@ -28,20 +28,20 @@ let clipNames = [
 ];
 let projects = [
   {
-    image: 'textures/project-spaze.webp',
-    url: 'https://www.spaze.social/',
+    image: 'textures/chatbot.jpg',
+    url: 'https://denkminds.vercel.app/',
   },
   {
-    image: 'textures/project-myteachers.jpg',
-    url: 'https://myteachers.com.au/',
+    image: 'textures/map.jpg',
+    url: 'https://github.com/kadamshweta11/MapApplication/tree/master',
   },
   {
-    image: 'textures/project-wholesale.jpg',
-    url: 'https://wholesale.com.np/',
+    image: 'textures/BE.jpg',
+    url: 'https://github.com/yoyoman21/B.E-Project-Main',
   },
   {
-    image: 'textures/project-pelotero.jpg',
-    url: 'https://www.peloterosenlaweb.com/',
+    image: 'textures/my.jpg',
+    url: '/',
   },
 ];
 let aboutCameraPos = {
@@ -112,6 +112,9 @@ controls.maxPolarAngle = Math.PI / 2;
 controls.update();
 
 // LOAD MODEL & ASSET
+
+
+
 // const loadingManager = new THREE.LoadingManager();
 const dracoLoader = new DRACOLoader();
 dracoLoader.setDecoderPath('draco/');
@@ -331,7 +334,7 @@ function loadIntroText() {
       new THREE.MeshPhongMaterial({ color: 0x171f27, flatShading: true }),
       new THREE.MeshPhongMaterial({ color: 0xffffff }),
     ];
-    const titleGeo = new TextGeometry('SUSHIL THAPA', {
+    const titleGeo = new TextGeometry('SHWETA KADAM', {
       font: font,
       size: 0.08,
       height: 0.01,
@@ -348,7 +351,7 @@ function loadIntroText() {
       new THREE.MeshPhongMaterial({ color: 0xffffff }),
     ];
     const subTitleGeo = new TextGeometry(
-      'Web Designer / Developer / Content Creator',
+      'Software Developer / AI & Web Enthusiast / CSM Certified',
       {
         font: font,
         size: 0.018,
