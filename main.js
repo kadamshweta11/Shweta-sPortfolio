@@ -40,8 +40,8 @@ let projects = [
     url: 'https://github.com/yoyoman21/B.E-Project-Main',
   },
   {
-    image: 'textures/my.jpg',
-    url: '/',
+    image: 'textures/portfolio2.jpg',
+    url: 'https://kadamshweta.vercel.app/',
   },
 ];
 let aboutCameraPos = {
